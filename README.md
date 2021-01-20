@@ -1,7 +1,9 @@
 # Experimentation Hub
 
-This repository contains an initial project structure which can change according to the serverless framework to be used 
-as well as deployment approach. 
+This project was designed in a way to be deployed into ec2 instances (or any other approach), but keeping in mind the 
+need to provide a structure flexible enough and capable of being easily converted to serverless architecture. 
 
-The main idea here is to migrate this content to an internal repository once platform team is back to assist us with 
-the usage of glovo-sample template
+The flexibilization aspect lead to the adoption of a factory_app approach. It helps to keep things in a modularized 
+way, makes it easier to setup, test and define different environments, and it's a good way to avoid circular imports.
+
+<p align="center"><img src="http://dkspinheiro.com/glovo/component_diagram.png" /></p>
