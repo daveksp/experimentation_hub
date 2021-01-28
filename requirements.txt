@@ -1,2 +1,8 @@
 Flask==0.12
 influxdb-client==1.8.0
+flask-marshmallow==0.7.0
+Flask-RESTful==0.3.8
+Flask-SQLAlchemy==2.4.4
+marshmallow==2.13.0
+simplejson==3.17.2
+Werkzeug==1.0.1
